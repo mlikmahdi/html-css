@@ -1,0 +1,15 @@
+version: "3.1"
+services:
+
+    phpapache:
+      image: php:apache
+      container_name: exo-martin
+      volumes:
+          - .:/var/www/html/
+      ports:
+       - "8000:80"
+
+    sass:
+      image: larryprice/sass
+      volumes:
+          - ./sass:/src
