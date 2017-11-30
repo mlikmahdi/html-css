@@ -1,0 +1,667 @@
+@charset "UTF-8";
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Bree Serif', serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 35px;
+}
+
+.clear {
+    clear: both;
+}
+
+.meta {
+    padding: 0 20px;
+}
+
+/* Navigation */
+.main_menu {
+    width:auto;
+    display: -webkit-box;
+    float: left;
+}
+
+.main_menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.main_menu ul li a {
+    background-color: #ef5350;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 7px;
+}
+
+.main_menu ul li {
+    float: left;
+    list-style: none;
+    margin-right: 8px;
+}
+
+.main_menu ul li:last-child {
+    margin-right: 0;
+}
+/* End Navigation */
+
+/* List article*/
+.list {
+    display: table;
+    margin-bottom: 30px;
+}
+
+.list article:nth-child(3n) {
+    margin-right:0;
+}
+
+.list article {
+    width: 32%;
+    background-color: #fff;
+    box-shadow: 0px 0px 4px 1px #c6c6c6;
+    float: left;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    margin-right:calc(4% / 2);
+}
+
+.list article img {
+    width:100%;
+}
+
+.pagination a {
+    background-color: #ef5350;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 7px;
+    margin-left: 10px;
+}
+
+.pagination a:nth-child(2) {
+    color: #fff !important;
+}
+
+.list a:nth-child(2) {
+    text-decoration: none;
+    color: #000;
+}
+
+.list h2 {
+    padding: 0 10px;
+}
+
+.list p {
+    padding: 0 10px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.list article a:last-child, .show a {
+    background-color: #ef5350;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 7px;
+    margin-left: 10px;
+}
+/* End list article*/
+
+/* Show article*/
+.pagination {
+    text-align: center;
+}
+
+.show {
+    display: table;
+    margin-bottom: 30px;
+}
+
+.show article {
+    width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    display: table;
+}
+
+.show article img {
+    width:50%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.show h2 {
+    margin-top: 0;
+    padding-left: 20px;
+}
+
+.show h2, .show p {
+    width: 50%;
+}
+
+.show #articleShow{
+    float: right;
+    width: 50%;
+}
+
+.show p {
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 20px;
+    width: 100%;
+}
+/* End show article */
+
+/* Form connexion */
+.connexion {
+    text-align: right;
+    margin-bottom: 30px;
+    width: auto;
+    float: left;
+    cursor: pointer;
+}
+
+.connexion form {
+    float: right;
+}
+
+.connexion form input {
+    border: 1px solid #efefef;
+    padding: 10px 15px;
+    display: flex;
+    margin:0 auto 7px auto;
+
+}
+
+.connexion #envoyer {
+    padding: 10px 0;
+    border: 0;
+    text-align: center;
+    width: 100%;
+    background-color: #ef5350;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    margin:0 auto 16px auto;
+    cursor: pointer;
+}
+
+#envoyer {
+    font-family: 'Bree Serif', serif;
+}
+
+.connexion #inscription {
+    padding: 10px 52px;
+    border: 0;
+    text-align: center;
+    width: 100%;
+    background-color: #ef5350;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    margin:0 auto 7px auto;
+    cursor: pointer;
+}
+
+.connexion ul li a {
+    background-color: #ef5350;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 7px;
+}
+
+.connexion ul {
+    margin: 0;
+    padding: 0;
+}
+
+.connexion li {
+    list-style: none;
+    margin-left: 10px;
+}
+
+.connexion li ul li {
+    margin-left: 0;
+}
+
+.connexion li ul {
+    display: none;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    position: absolute;
+}
+
+.connexion li:hover ul {
+    display: block;
+    background-color: #fff;
+    padding:10px 10px 20px 10px;
+    margin-top: 7px;
+}
+
+.error {
+    margin-left: 10px;
+    color: #ef5350;
+}
+/* End Form  connexion */
+
+/* Form inscription */
+.inscription {
+    width: 50%;
+    float: left;
+}
+
+.inscription div {
+    margin-bottom: 10px;
+}
+
+.inscription #envoyer {
+    padding: 10px 0;
+    border: 0;
+    text-align: center;
+    width: 50%;
+    background-color: #ef5350;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    margin:20px auto 16px auto;
+    cursor: pointer;
+}
+/*End form inscription*/
+
+/* Form Newsletter */
+.newsletter {
+    width: 50%;
+    float: left;
+}
+
+.newsletter div {
+    margin-bottom: 10px;
+}
+
+.newsletter #envoyer {
+    padding: 10px 0;
+    border: 0;
+    text-align: center;
+    width: 50%;
+    background-color: #ef5350;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    margin:20px auto 16px auto;
+    cursor: pointer;
+}
+/* End form Newsletter*/
+
+/* Breaking News */
+.breakingNews {
+    display: -webkit-box;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 0px 1px 1px #ef5350;
+    margin-bottom: 20px;
+}
+
+.breakingNews span {
+    display: block;
+    background-color: #fff;
+    color: #ef5350;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 7px 20px;
+    /*float: left;*/
+}
+
+.breakingNews p {
+    display: none;
+}
+
+.breakingNews marquee {
+    display: block;
+    width: calc(100% - 214px);
+    float: left;
+    line-height: 37px;
+}
+/* End Breaking News */
+
+/* Footer */
+#footer {
+    background-color:#A33837;
+    color: #fff;
+    display:flex;
+}
+
+#footer .container {
+    padding: 20px;
+}
+
+#footer .presentation, #footer .rs, #footer .contact {
+    width: 32%;
+    margin-right:calc(4% / 2 - 40px);
+    float: left;
+    padding: 15px;
+}
+
+#footer a {
+    display: block;
+}
+
+#footer h3 {
+    margin-top: 0;
+}
+
+#footerContact input, #footerContact textarea {
+    border: 1px solid #efefef;
+    min-width: calc(100% - 20px);
+    padding: 10px 10px;
+    display: flex;
+    margin:0 auto 7px auto;
+
+}
+
+#footerContact textarea {
+    height: 100px;
+}
+
+#footerContact button {
+    padding: 10px 45px;
+    border: 0;
+    text-align: center;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    margin:10px auto 10px auto;
+    cursor: pointer;
+}
+/* End footer */
+
+/* Responsive */
+@media (max-width: 850px) {
+    .newsletter h2, .inscription h2 {
+        font-size: 20px;
+    }
+
+    .newsletter label, .inscription label {
+        font-size: 15px;
+    }
+
+    .pagination {
+        clear: both;
+        margin: 30px 0 0 0;
+    }
+
+    .list article:nth-child(2n) {
+        margin-left:2%;
+    }
+
+    .list article {
+        width: 49%;
+        margin-right:0;
+        padding-bottom:25px;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .main_menu ul li a, .list article a:last-child, .show a, .list p {
+        font-size: 14px;
+    }
+
+    .list h2 {
+        margin:10px 0 0 0;
+    }
+
+    .list p {
+        padding: 0 10px 8px 10px;
+    }
+
+    .breakingNews span {
+        font-size: 15px;
+    }
+
+    .list article:nth-child(9):before {
+        clear: both;
+    }
+
+    .list article:nth-child(9) {
+        margin: 0 auto;
+        float: none;
+        display: inherit;
+    }
+
+    .show h2 {
+        font-size: 20px;
+    }
+
+    .show span, .show p {
+        font-size: 13px;
+    }
+
+    .show .pagination {
+        margin: 15px 0 0 0;
+    }
+
+    .breakingNews marquee {
+        width: calc(94% - 228px);
+    }
+}
+
+@media (max-width: 550px) {
+    .list h2 {
+        font-size: 20px;
+    }
+
+    .list p, .list article a:last-child {
+        font-size: 12px;
+    }
+
+    .show article img, .show #articleShow {
+        width: 100%;
+    }
+
+    .show #articleShow {
+        margin-bottom: 10px;
+    }
+
+    .show h2, .show span, .show p {
+        padding: 0;
+    }
+
+    .show h2, .show span {
+        margin: 0;
+    }
+
+    .show p {
+        margin: 8px 0px 8px 0px;
+    }
+
+    .show .pagination {
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .show .pagination a {
+        text-align: center !important;
+        margin: 0;
+    }
+
+    .inscription, .newsletter {
+        width: 100%;
+    }
+
+    #footer .presentation, #footer .rs, #footer .contact {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    #footer h3 {
+        margin: 0;
+    }
+
+    #footer p {
+        margin-top: 0;
+        font-size: 13px;
+    }
+
+    #footer .rs {
+        margin-bottom: 25px;
+    }
+
+    .breakingNews p {
+        display: block;
+        width: 50%;
+        float: left;
+        line-height: 37px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    .breakingNews marquee {
+        display: none;
+    }
+
+    .main_menu ul li a, .list article a:last-child, .show a, .list p {
+        font-size: 12px;
+    }
+
+    .connexion ul li a {
+        font-size: 13px;
+    }
+
+    .connexion li:hover ul {
+        padding: 10px 0px 20px 0px;
+    }
+}
+
+@media (max-width: 450px){
+    .list article {
+        width: 80%;
+        float: none;
+        margin: auto;
+    }
+
+    .list article:nth-child(2n), .list article:nth-child(3n) {
+        margin: 20px auto 20px auto;
+    }
+
+    .show h2 {
+        font-size: 18px;
+    }
+
+    .show span, .show a {
+        font-size: 14px;
+    }
+
+    .show p {
+        font-size: 12px;
+    }
+
+    .show .pagination {
+        text-align: left;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .show .pagination a {
+        text-align: center !important;
+        margin: 0;
+    }
+
+    #envoyer, .newsletter #envoyer {
+        width: 100% !important;
+    }
+
+    .breakingNews p {
+        display: block;
+        width: 50%;
+        float: left;
+        line-height: 37px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    .breakingNews marquee {
+        display: none;
+    }
+
+    .connexion ul {
+        margin-top: 20px;
+    }
+
+    .connexion li {
+        margin: 0;
+    }
+}
+
+@media (max-width: 360px) {
+    .show h2 {
+        font-size: 16px;
+    }
+
+    .show span, .show a {
+        font-size: 12px;
+    }
+
+    .show p {
+        font-size: 10px;
+    }
+
+    .main_menu ul li {
+        display: contents;
+    }
+}
+/* End responsive */
+
+/* Print */
+@media print {
+    @page  {
+        margin: 2cm;
+    }
+
+    .container, header, header h1, .list {
+        margin: 0;
+        padding: 0;
+    }
+
+    .main_menu, .connexion, #footer .contact {
+        display: none;
+    }
+
+    .list article, .breakingNews {
+        margin: 0.7cm 0;
+    }
+
+    .list article:nth-child(9) {
+        margin-top: 5cm;
+        display: inherit;
+    }
+}
+/* End print */
